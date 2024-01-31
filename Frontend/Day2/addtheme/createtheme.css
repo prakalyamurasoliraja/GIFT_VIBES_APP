@@ -1,0 +1,30 @@
+/* create-theme.css */
+
+.create-theme-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.create-theme-comtainer{
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #151414;
+    box-shadow: 0 0 10px rgba(28, 25, 25, 0.1);
+}
+
+.create-theme-container .create-theme-comtainer .form-control {
+    margin-bottom: 15px;
+}
+
+.create-theme-container .create-theme-comtainer .submittheme {
+    width: 100%;
+}
+
+.create-theme-container .create-theme-comtainer .createinfo {
+    width: 100%;
+}

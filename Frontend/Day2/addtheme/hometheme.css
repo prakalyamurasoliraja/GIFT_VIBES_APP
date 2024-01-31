@@ -1,0 +1,137 @@
+/* hometheme.css */
+
+.updated-classname {
+    background: url("green.webp");
+    width:1653px;
+    background-size: cover;
+    background-position: 0%;
+    background-repeat: no-repeat;
+    margin-top: 90px;
+    height:738px;
+    /* Add any additional styling for the container */
+}
+
+.updated-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 980px;
+    margin-left: 370px;
+    height: 500px;
+    /* Adjust the gap between items as needed */
+}
+
+.updated-grid-item {
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: calc(33.33% - 20px); /* Adjust the width for 3 items in a row */
+    box-sizing: border-box;
+    /* Adjust padding and other styles as needed */
+}
+
+.updated-dis {
+    width: 280px; /* Set the width to 50 pixels */
+    height: 280px; /* Set the height to 50 pixels */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    /* Ensure images don't exceed their container width */
+}
+
+.updated-gift-name,
+.updated-price,
+.updated-quantity {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.updated-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center; 
+}
+
+.updated-edit-link {
+    /* Add any specific styles for the edit link */
+}
+
+.updated-edit-button,
+.updated-delete-button,
+.updated-create-button {
+    /* Add common styles for buttons */
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Add styling for the icons */
+.updated-gift-name i,
+.updated-price i,
+.updated-quantity i {
+    margin-right: 10px; /* Add some spacing between the icon and text */
+}
+
+.updated-gift-name i {
+    color: #8e0981; /* Set the color for the gift icon */
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.updated-price i {
+    color: #b16008; 
+    margin-right: 10px;/* Set the color for the price icon */
+}
+
+.updated-quantity i {
+    color: #00448c;
+    margin-right: 10px; /* Set the color for the quantity icon */
+}
+
+.updated-edit-button {
+    background-color: #875b07;
+    height: 45px;
+    width: 80px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.updated-edit-button:hover {
+    background-color: #045a68;
+    color: #fff;
+    height: 50px;
+    width: 85px;
+}
+
+.updated-delete-button {
+    background-color: #072d04;
+    margin-top: -23px;
+    height: 45px;
+    width: 80px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.updated-delete-button:hover {
+    background-color: #8b0a37;
+    color: #fff;
+    height: 50px;
+    width: 85px;
+}
+
+.updated-create-button {
+    color: #212529;
+    margin-left: 700px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+    width: 300px;
+    background-color: #000000;
+    margin-top: 50px;
+}
+
+.updated-create-button:hover {
+    color: white;
+    background-color:  #8b0a37;
+}
